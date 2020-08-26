@@ -1,0 +1,23 @@
+{
+  "name": "CJEnvironmentKit",
+  "version": "0.1.0",
+  "summary": "环境切换功能",
+  "homepage": "https://github.com/dvlproad/Feature-Environment-iOS",
+  "description": "A longer description of CJEnvironmentKit in Markdown format.\n\n* Think: Why did you write this? What is the focus? What does it do?\n* CocoaPods will be using this to generate tags, and improve search results.\n* Try to keep it short, snappy and to the point.\n* Finally, don't worry about the indent, CocoaPods strips it!",
+  "license": "MIT",
+  "authors": {
+    "dvlproad": ""
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "swift_versions": "4.0",
+  "source": {
+    "git": "https://github.com/dvlproad/Feature-Environment-iOS.git",
+    "tag": "CJEnvironmentKit_0.3.0"
+  },
+  "source_files": "CJEnvironmentKit/**/*.{swift}",
+  "frameworks": "UIKit",
+  "requires_arc": true,
+  "swift_version": "4.0"
+}

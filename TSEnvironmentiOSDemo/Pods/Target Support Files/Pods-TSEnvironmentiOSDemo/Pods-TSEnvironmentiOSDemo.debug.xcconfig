@@ -1,0 +1,13 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CJBaseUtil" "${PODS_CONFIGURATION_BUILD_DIR}/CJEnvironmentKit" "${PODS_CONFIGURATION_BUILD_DIR}/CQDemoKit" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftExtraCJHelper" "${PODS_CONFIGURATION_BUILD_DIR}/TSDemo_Environment"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CJBaseUtil/CJBaseUtil.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/CJEnvironmentKit/CJEnvironmentKit.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/CQDemoKit/CQDemoKit.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry/Masonry.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftExtraCJHelper/SwiftExtraCJHelper.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/TSDemo_Environment/TSDemo_Environment.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_CONFIGURATION_BUILD_DIR}/CJBaseUtil/CJBaseUtil.framework/Headers" -isystem "${PODS_CONFIGURATION_BUILD_DIR}/CJEnvironmentKit/CJEnvironmentKit.framework/Headers" -isystem "${PODS_CONFIGURATION_BUILD_DIR}/CQDemoKit/CQDemoKit.framework/Headers" -isystem "${PODS_CONFIGURATION_BUILD_DIR}/Masonry/Masonry.framework/Headers" -isystem "${PODS_CONFIGURATION_BUILD_DIR}/SwiftExtraCJHelper/SwiftExtraCJHelper.framework/Headers" -isystem "${PODS_CONFIGURATION_BUILD_DIR}/TSDemo_Environment/TSDemo_Environment.framework/Headers" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/CJBaseUtil" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/CJEnvironmentKit" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/CQDemoKit" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/SwiftExtraCJHelper" -iframework "${PODS_CONFIGURATION_BUILD_DIR}/TSDemo_Environment"
+OTHER_LDFLAGS = $(inherited) -framework "CJBaseUtil" -framework "CJEnvironmentKit" -framework "CQDemoKit" -framework "Foundation" -framework "Masonry" -framework "SwiftExtraCJHelper" -framework "TSDemo_Environment" -framework "UIKit"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

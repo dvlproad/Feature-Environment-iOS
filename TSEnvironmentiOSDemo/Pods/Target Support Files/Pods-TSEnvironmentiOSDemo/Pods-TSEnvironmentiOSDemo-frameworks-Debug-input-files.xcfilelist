@@ -1,0 +1,7 @@
+${PODS_ROOT}/Target Support Files/Pods-TSEnvironmentiOSDemo/Pods-TSEnvironmentiOSDemo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CJBaseUtil/CJBaseUtil.framework
+${BUILT_PRODUCTS_DIR}/CJEnvironmentKit/CJEnvironmentKit.framework
+${BUILT_PRODUCTS_DIR}/CQDemoKit/CQDemoKit.framework
+${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework
+${BUILT_PRODUCTS_DIR}/SwiftExtraCJHelper/SwiftExtraCJHelper.framework
+${BUILT_PRODUCTS_DIR}/TSDemo_Environment/TSDemo_Environment.framework

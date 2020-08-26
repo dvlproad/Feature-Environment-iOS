@@ -1,0 +1,37 @@
+{
+  "name": "TSDemo_Environment",
+  "version": "0.1.0",
+  "summary": "环境切换Environment演示示例",
+  "homepage": "https://github.com/dvlproad/Feature-Environment-iOS.git",
+  "license": {
+    "type": "Copyright",
+    "text": "              © 2008-2016 dvlproad. All rights reserved.\n"
+  },
+  "authors": {
+    "dvlproad": ""
+  },
+  "description": "-、演示示例\n\n    A longer description of TSDemo_Environment in Markdown format.\n\n    * Think: Why did you write this? What is the focus? What does it do?\n    * CocoaPods will be using this to generate tags, and improve search results.\n    * Try to keep it short, snappy and to the point.\n    * Finally, don't worry about the indent, CocoaPods strips it!",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "swift_versions": "4.0",
+  "source": {
+    "git": "https://github.com/dvlproad/Feature-Environment-iOS.git",
+    "tag": "TSDemo_Environment_0.1.0"
+  },
+  "frameworks": "UIKit",
+  "requires_arc": true,
+  "source_files": "TSDemo_Environment/**/*.{swift}",
+  "dependencies": {
+    "CQDemoKit": [
+
+    ],
+    "SwiftExtraCJHelper": [
+
+    ],
+    "CJEnvironmentKit": [
+
+    ]
+  },
+  "swift_version": "4.0"
+}

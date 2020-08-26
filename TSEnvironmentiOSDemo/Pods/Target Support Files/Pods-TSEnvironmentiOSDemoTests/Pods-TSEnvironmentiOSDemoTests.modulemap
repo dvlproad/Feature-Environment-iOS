@@ -1,0 +1,6 @@
+framework module Pods_TSEnvironmentiOSDemoTests {
+  umbrella header "Pods-TSEnvironmentiOSDemoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

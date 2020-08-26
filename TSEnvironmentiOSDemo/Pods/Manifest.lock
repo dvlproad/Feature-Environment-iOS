@@ -1,0 +1,71 @@
+PODS:
+  - CJBaseUtil/CJDataUtil (0.5.1)
+  - CJEnvironmentKit (0.1.0)
+  - CQDemoKit (0.5.2):
+    - CQDemoKit/BaseUIKit (= 0.5.2)
+    - CQDemoKit/BaseUtil (= 0.5.2)
+    - CQDemoKit/BaseVC (= 0.5.2)
+    - CQDemoKit/Demo_Resource (= 0.5.2)
+  - CQDemoKit/BaseUIKit (0.5.2):
+    - Masonry
+  - CQDemoKit/BaseUtil (0.5.2)
+  - CQDemoKit/BaseVC (0.5.2):
+    - CQDemoKit/BaseVC/Base (= 0.5.2)
+    - CQDemoKit/BaseVC/Collection (= 0.5.2)
+    - CQDemoKit/BaseVC/ScrollView (= 0.5.2)
+    - CQDemoKit/BaseVC/TableView (= 0.5.2)
+    - CQDemoKit/BaseVC/TextView (= 0.5.2)
+  - CQDemoKit/BaseVC/Base (0.5.2):
+    - Masonry
+  - CQDemoKit/BaseVC/Collection (0.5.2):
+    - CJBaseUtil/CJDataUtil
+    - CQDemoKit/BaseVC/Base
+  - CQDemoKit/BaseVC/ScrollView (0.5.2):
+    - CQDemoKit/BaseVC/Base
+  - CQDemoKit/BaseVC/TableView (0.5.2):
+    - CJBaseUtil/CJDataUtil
+    - CQDemoKit/BaseVC/Base
+  - CQDemoKit/BaseVC/TextView (0.5.2):
+    - CJBaseUtil/CJDataUtil
+    - CQDemoKit/BaseUtil
+    - CQDemoKit/BaseVC/Base
+  - CQDemoKit/Demo_Resource (0.5.2)
+  - Masonry (1.1.0)
+  - SwiftExtraCJHelper (0.1.0):
+    - SwiftExtraCJHelper/Base (= 0.1.0)
+  - SwiftExtraCJHelper/Base (0.1.0)
+  - TSDemo_Environment (0.1.0):
+    - CJEnvironmentKit
+    - CQDemoKit
+    - SwiftExtraCJHelper
+
+DEPENDENCIES:
+  - CJEnvironmentKit (from `../`)
+  - CQDemoKit/BaseVC (~> 0.5.2)
+  - SwiftExtraCJHelper
+  - TSDemo_Environment (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CJBaseUtil
+    - CQDemoKit
+    - Masonry
+    - SwiftExtraCJHelper
+
+EXTERNAL SOURCES:
+  CJEnvironmentKit:
+    :path: "../"
+  TSDemo_Environment:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CJBaseUtil: 1bbf8d5f831dc12ae4bb06c8b5326bd39f3522e1
+  CJEnvironmentKit: 7783269aacd5ad0458a24f7e789fe4318b753e00
+  CQDemoKit: 94f6c3052a056481c0d79e2db5d50130d9e99a91
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SwiftExtraCJHelper: 08327687925a21f8f52fe86cf30b2b7f67ef5791
+  TSDemo_Environment: 5fd7239da59db6ac8c6bcd63e16846f5ed0870d7
+
+PODFILE CHECKSUM: 614f5b7f3cf7ab8146d5158b08f0ac906c6308cc
+
+COCOAPODS: 1.9.3
